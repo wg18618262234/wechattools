@@ -1,7 +1,6 @@
 import itchat, time
 
 itchat.auto_login(True)  ###登录，扫码，相当于登录微信网页版
-itchat.run()  ###loop，监听收到消息事件
 
 WANT_TO_SAY = '祝%s狗年旺旺，身体健康！！'
 
