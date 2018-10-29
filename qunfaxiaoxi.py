@@ -12,5 +12,5 @@ for friend in friendList:
     # print('第%d个    ' % (i), WANT_TO_SAY % (friend['DisplayName'] or friend['NickName']))
     print('第%d个' % (i), WANT_TO_SAY, friend['DisplayName'] or friend['NickName'])
     # itchat.send(WANT_TO_SAY % (friend['DisplayName'] or friend['NickName']))
-    # itchat.send(WANT_TO_SAY)
+    itchat.send(WANT_TO_SAY)
     time.sleep(.3)
